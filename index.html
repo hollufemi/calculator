@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><br>
+        <h3 style="color: gold;">ORACLE CALC</h3><br>
+        <p style="font-weight: 400;" ><i>*Made In Ikorodu*</i></p>
+        <div class="screen">
+
+            <input style="width: 250px; height: 70px;" type="text" id="screen">
+        </div>   
+        
+           <div class="as">
+                <button onclick="toclear('AC')" class="operator">AC</button>
+                <button onclick="toRemove('DEL')" class="operator">DEL</button>
+                <button onclick="topercent('%')" class="operator">%</button>
+                <button onclick="toDisplay('/')"class="operator">/</button>
+            </div>
+
+            <div class="ad">
+                <button onclick="toDisplay('7')">7</button>
+                <button onclick="toDisplay('8')">8</button>
+                <button onclick="toDisplay('9')">9</button>
+                <button onclick="toDisplay('*')" class="operator">* </button>
+            </div>
+
+            <div class="af">
+                <button onclick="toDisplay('4')">4</button>
+                <button onclick="toDisplay('5')">5</button>
+                <button onclick="toDisplay('6')">6</button>
+                <button onclick="toDisplay('-')" class="operator">-</button>
+            </div>
+
+            <div class="ag">
+                <button onclick="toDisplay('1')">1</button>
+                <button onclick="toDisplay('2')">2</button>
+                <button onclick="toDisplay('3')">3</button>
+                <button onclick="toDisplay('+')" class="operator">+</button>
+            </div>
+
+            <div class="ah">
+                <!-- <button onclick="toDisplay('00')">00</button> -->
+                <button onclick="racetopower('x2')"class="operator">x2</button>
+                <button onclick="toDisplay('0')">0</button>
+                <button onclick="toDisplay('.')" >.</button>
+                <button onclick="toequal('=')" class="Equalto">=</button>
+    
+            </div>   
+          
+    </div>        
+   <script src="index.js"></script>
+</body>
+</html>

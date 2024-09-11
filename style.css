@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;   
+}
+
+body{
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+    
+.container{
+    width: 20em;
+    background-color:grey;
+    display: grid;
+    border-radius: 50px;   
+
+    h3{
+        margin-left:82px ;
+    }
+    p{
+        margin-left:90px ;
+    }
+}
+
+.screen{
+    margin-left:9px ;
+    margin-top:20px;
+    padding: 25px; 
+}
+
+.as{
+    margin-left:36px ;
+
+    button{
+        font-size: large;
+        border-radius: 15px;
+        color: red;
+        padding: 16px;
+        background-color: white;
+        box-shadow: 20px;   
+    }
+}
+.ad{
+    margin-left:40px ;
+   
+    button{
+        font-size: large;
+        border-radius: 15px;
+        color: gold;
+        padding: 20px;
+        box-shadow: 20px;
+    }
+}
+
+.af{
+    margin-left:40px ;
+    
+    button{
+        font-size: large;
+        border-radius: 15px;
+        color:gold;
+        padding: 20px;
+        box-shadow: 20px;
+        
+    }
+}
+
+.ag{
+    margin-left:40px ;
+    button{
+        font-size: large;
+        border-radius: 15px;
+        color:gold;
+        box-shadow: 20px; 
+        padding: 20px;
+    }
+}
+
+
+.ah{
+    margin-left:38px ;
+    margin-bottom: 20px;
+    button{
+        font-size: large;
+        border-radius: 15px;
+        color: red;
+        padding: 20px;
+        background-color:white;
+        box-shadow: 20px;
+    }
+}
+
+.as :hover{
+    background-color: dimgrey;
+}
+
+.ad :hover{
+    background-color: dimgrey;
+}
+
+.af :hover{
+    background-color: dimgrey;
+}
+
+.ag :hover{
+    background-color: dimgrey;
+}
+
+.ah :hover{
+    background-color: dimgrey;
+}
+
